@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.fas  {
+    float: left;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 50px;
+    color: teal;
+
+}
+
+#menu{
+text-align: center;
+display: inline-block ;
+margin: 0 auto;
+width: 100%;
+
+}
+
+#menu:hover{
+    color: teal;
+}
+
+#live{
+    color: teal;
+    float: left;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+
+.paragraph{
+    
+float: right;
+padding-top: 20px;
+}
+
+.para{
+    width: 71%; 
+}
+
+li{
+    padding: 20px;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.sideBar{
+   width: 16%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: large;
+
+}
+
+img{
+    width: 8%;
+    float: right;
+    
+   
+}
+
+
+ul{
+    display: inline-block ;
+}
+
+
+#footer{ 
+  text-align: center;
+
+    padding: 20px;
+    width: 100%;
+  
+}
+
+#footer>il{
+float: right;
+    padding: 30px;
+    
+}
+a{
+    color: black;
+    
+}
+
+@media screen and (max-width:400px) {
+    .para {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width:400px )and(max-width:768px) {
+    #menu{
+        width: 100%;
+    }
+
+    .paragraph{
+        float: right;
+        padding-top: 20px;
+    }
+    .para {
+        width: 71%;
+    }
+
+    .sidebar{
+        width: 20%;
+        
+    float: left;
+    padding-left: 50px;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-size: large;
+    }
+  
+}
